@@ -11,7 +11,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <title>Web Studio</title>
   </head>
   <body>
@@ -198,49 +198,53 @@
           <div class="content">
             <p class="list-items">Присоединяйтесь</p>
             <ul class="content-title">
-              <li class="socials-title">
-                <div class="soc">
-                  <svg class="soc-size">
-                    <use href="./images/symbol-defs.svg#icon-instagram"></use>
-                  </svg>
-                </div>
-                <a href="https://www.instagram.com/?hl=ru"></a>
+              <li>
+                <a href="https://www.instagram.com/?hl=ru" class="socials-title">
+                  <div class="soc">
+                    <svg class="soc-size">
+                      <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                    </svg>
+                  </div>
+                </a>
               </li>
-              <li class="socials-title">
-                <div class="soc">
-                  <svg class="soc-size">
-                    <use href="./images/symbol-defs.svg#icon-facebook"></use>
-                  </svg>
-                </div>
-                <a href="https://www.facebook.com/"></a>
+              <li>
+                <a href="https://www.facebook.com/" class="socials-title">
+                  <div class="soc">
+                    <svg class="soc-size">
+                      <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                    </svg>
+                  </div>
+                </a>
               </li>
-              <li class="socials-title">
-                <div class="soc">
-                  <svg class="soc-size">
-                    <use href="./images/symbol-defs.svg#icon-twitter"></use>
-                  </svg>
-                </div>
-                <a href="https://twitter.com/explore"></a>
+              <li>
+                <a href="https://twitter.com/explore" class="socials-title">
+                  <div class="soc">
+                    <svg class="soc-size">
+                      <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                    </svg>
+                  </div>
+                </a>
               </li>
-              <li class="socials-title">
-                <div class="soc">
-                  <svg class="soc-size">
-                    <use href="./images/symbol-defs.svg#icon-linkedln"></use>
-                  </svg>
-                </div>
-                <a href="https://www.linkedin.com/"></a>
+              <li>
+                <a href="https://www.linkedin.com/" class="socials-title">
+                  <div class="soc">
+                    <svg class="soc-size">
+                      <use href="./images/symbol-defs.svg#icon-linkedln"></use>
+                    </svg>
+                  </div>
+                </a>
               </li>
             </ul>
           </div>
-          <div class="aside-list">
-            <p class="list-items">Подпишитесь на рассылку</p>
-          </div>
           <div>
-            <a class="button-footer" href="">Подписаться</a>
+            <p class="list-items">Подпишитесь на рассылку</p>
+            <form class="input-list">
+              <label for="">
+                <input type="mail" name="e-mail" placeholder="E-mail" class="input"></label>
+              <button class="button-footer">
+                Подписаться</button>
+            </form>
           </div>
-        </div>
-        <div class="aside">
-          <p class="aside-footer">2020 | Developed by GoIT Students</p>
         </div>
       </div>
     </footer>
