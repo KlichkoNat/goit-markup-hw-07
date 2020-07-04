@@ -1,8 +1,8 @@
 .list {
   display: flex;
   &:focus a {
-    color: #2196f3;
-    fill: #2196f3;
+    color: $bluecolor;
+    fill: $bluecolor;
   }
 }
 .list-title {
@@ -21,31 +21,31 @@
     margin-right: 0;
   }
   &:hover {
-    color: #2196f3;
-    fill: #2196f3;
-    border: 1px solid #2196f3;
+    color: $bluecolor;
+    fill: $bluecolor;
+    border: 1px solid $bluecolor;
     box-sizing: border-box;
     border-radius: 4px;
   }
   &:focus {
-    color: #2196f3;
-    fill: #2196f3;
-    border: 1px solid #2196f3;
+    color: $bluecolor;
+    fill: $bluecolor;
+    border: 1px solid $bluecolor;
     box-sizing: border-box;
     border-radius: 4px;
   }
   &:hover a {
-    color: #2196f3;
-    fill: #2196f3;
-    border: 1px solid #2196f3;
+    color: $bluecolor;
+    fill: $bluecolor;
+    border: 1px solid $bluecolor;
     box-sizing: border-box;
     border-radius: 4px;
   }
 }
 .list-t:focus {
-  color: #2196f3;
-  fill: #2196f3;
-  border: 1px solid #2196f3;
+  color: $bluecolor;
+  fill: $bluecolor;
+  border: 1px solid $bluecolor;
   box-sizing: border-box;
   border-radius: 4px;
 }

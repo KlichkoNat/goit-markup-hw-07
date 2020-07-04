@@ -23,7 +23,7 @@
   font-size: 22px;
   line-height: 26px;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: $backcolor;
 }
 .adress {
   margin-bottom: 9px;
@@ -102,9 +102,9 @@
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
-  border-color: #2196f3;
+  border-color: $bluecolor;
   padding: 10px 29px;
-  background: #2196f3;
+  background: $bluecolor;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   &::after {
