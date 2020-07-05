@@ -23,31 +23,23 @@
   &:hover {
     color: $bluecolor;
     fill: $bluecolor;
-    border: 1px solid $bluecolor;
-    box-sizing: border-box;
-    border-radius: 4px;
+    @extend %bordersize;
   }
   &:focus {
     color: $bluecolor;
     fill: $bluecolor;
-    border: 1px solid $bluecolor;
-    box-sizing: border-box;
-    border-radius: 4px;
+    @extend %bordersize;
   }
   &:hover a {
     color: $bluecolor;
     fill: $bluecolor;
-    border: 1px solid $bluecolor;
-    box-sizing: border-box;
-    border-radius: 4px;
+    @extend %bordersize;
   }
 }
 .list-t:focus {
   color: $bluecolor;
   fill: $bluecolor;
-  border: 1px solid $bluecolor;
-  box-sizing: border-box;
-  border-radius: 4px;
+  @extend %bordersize;
 }
 .list-l {
   width: 170px;
