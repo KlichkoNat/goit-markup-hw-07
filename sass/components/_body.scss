@@ -10,6 +10,6 @@ html {
 body {
   font-family: Roboto;
   color: $maincolor;
-  max-width: 1600px;
+  width: 1600px;
   @extend %margin;
 }
