@@ -1,6 +1,7 @@
 .box-container {
   align-items: center;
-  width: 100%;
+  width: 1200px;
+  @extend %margin;
   &:focus .owerlay {
     position: fixed;
     display: flex;
@@ -13,7 +14,7 @@
 }
 .averlay {
   height: 600px;
-  width: 100%;
+  width: 1600px;
   background-image: linear-gradient(
       to right,
       rgba(47, 48, 58, 0.8),
